@@ -12,4 +12,4 @@ Passa as instruções para a máquina, como por exemplo os algoritmos e por fim 
 ### Baixo nível - Máquinas e nível hardware 0 1 0 1 1 0 1 1 0
 A linguagem que a máquina entende são 0 e 1, infinitos. Como códigos binários. Logo fica mais complexa para humanos. Apesar de ocupar menos espaço na memória da máquina.
 
-### Fim
+### conclusão

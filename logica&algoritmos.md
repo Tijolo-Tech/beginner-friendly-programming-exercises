@@ -15,4 +15,4 @@ Estes são passos simples, o ideal é saber exatamente o fluxograma do que se es
 
 Jogos são uma boa maneira de enxergar isso, cada movimento deve ter uma ordem exata e precisa, caso contrário o personagem poderia **bugar** ou **bater** na parede devido a erros nos comandos. 
 
-### Fim
+### conclusão
