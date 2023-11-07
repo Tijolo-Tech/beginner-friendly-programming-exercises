@@ -1,4 +1,8 @@
 
+
+
+/**
+
 function soma(valor1, valor2) {
     return valor1 + valor2;
 }
@@ -29,7 +33,7 @@ function paraCelsius(valorFahrenheit) {
 
 var x = paraCelsius(77);
 
-alert( "A Temperatura é de " + x + " graus celsius" );
+//alert( "A Temperatura é de " + x + " graus celsius" );
 
 
 
@@ -48,11 +52,139 @@ function minhaFuncao() {
  }
 
  const lista = ["arroz", "feijao" , "manteiga" , "leite"]
- alert(lista);
+ //alert(lista);
 
- const ola = ["arroz", "feijao" , "manteiga" , "leite"];
+ const ola = ["refr", "suco" , "cha"];
 
- alert(Array.isArray(ola));
+ //alert(Array.isArray(ola));
 
 
- console.log(micro)
+
+const superLista = lista.concat(ola);
+
+document.getElementById("teste").innerHTML = lista;
+
+
+const jogadores = ["biro", "Ribamar" , "pelé"];
+
+jogadores.sort();
+jogadores.reverse();
+
+
+const numeros = [40, 100, 1, 5,];
+
+numeros.sort(function (a,b) { return a - b});
+
+document.getElementById("teste").innerHTML = MaiorNumero(numeros);
+
+function MaiorNumero(array) {
+    return Math.max.apply(null, array);
+}
+
+
+var interruptor = "off"
+if (interruptor == "on") {
+    alert('Ligada');
+} else {
+    alert('desligada');
+}
+
+    
+
+function verificaCor() {
+    let cor = document.getElementById("cor").value;
+    cor = cor.toLowerCase();
+
+
+switch (cor) {
+
+case "preto":
+    document.body.style.backgroundColor = "black";
+    break;
+
+case "vermelho":
+    document.body.style.backgroundColor = "red";
+        break;
+
+ case "verde":
+    document.body.style.backgroundColor = "green";
+            break;
+
+           // default:
+}
+document.getElementById("teste").innerHTML = "nenhumacor" + cor;
+}
+
+
+var ano = new Date().getFullYear();
+for (let i = ano; i > 1900; i--) {
+    document.getElementById("ano").innerHTML += "<option value='" + i + "'>" + i + "</option>"
+}
+
+
+
+const carros = ["gol", "fusca", "brasilia", "Del Rey"]
+var tamanho = carros.length;
+
+for(let i=0; i<tamanho; i++) {
+    document.getElementById("teste").innerHTML +=carros[i] +  " - ";
+
+
+        document.getElementById('tempo').innerHTML = "Começou a contar!";
+
+    setTimeout(function () {
+        document.body.style.backgroundColor = "red";
+      
+      },  100);  
+}
+}
+
+
+
+function ativarContagem() {
+tempo = setInterval(function() {
+    var cronometro = document.getElementById('tempo').innerHTML;
+    var soma = parseInt(cronometro) +1;
+    document.getElementById('tempo').innerHTML = soma;
+}, 10);
+}
+
+function Stop() {
+    clearInterval(tempo);
+}
+
+
+
+class Carro{
+    constructor(uno, bele, ana, oculu) {
+        this.marca = uno;
+    }
+   
+}
+
+var Todas = ["uno", "motoclube"];
+const uno = new Carro("Fiat", "uno", 2001);
+
+const motoclube = new Carro("Kansas", "uno", 2015);
+
+const impetus = new Carro("Dafra", "uno", 2001);
+ */
+
+
+
+
+//let data = new Date() 
+//console.log(data);
+
+
+
+//let ano = data.getFullYear();
+//console.log(ano);
+
+
+//let mes = data.getMonth();
+
+
+
+let hora = data.getHours();
+console.log(hora);
