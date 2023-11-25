@@ -8,7 +8,8 @@ button {
 input {
     color: brown;
     align-items: center;
-        border-radius: 25px;
+    border-radius: 25px;
+    
 }
 
 body {
@@ -32,3 +33,4 @@ button.Stop  {
     font-size: 20px;
 
 }
+

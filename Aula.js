@@ -1,9 +1,5 @@
-
-
-
-/**
-
-function soma(valor1, valor2) {
+ /** VALOR DOLAR - AULA 
+ * function soma(valor1, valor2) {
     return valor1 + valor2;
 }
 
@@ -22,10 +18,8 @@ function alertaHello() {
     document.body.style.backgroundColor = "yellow";
 
 }
-
-
-
-
+*/ 
+ /**GRAU CELSIUS 
 function paraCelsius(valorFahrenheit) {
     return (5 / 9) * (valorFahrenheit - 32);
 }
@@ -35,9 +29,9 @@ var x = paraCelsius(77);
 
 //alert( "A Temperatura é de " + x + " graus celsius" );
 
-
-
-function minhaFuncao() {
+*/
+/** CAMPO FOCADO
+ *  function minhaFuncao() {
     var x = 2;
 }
 
@@ -56,16 +50,15 @@ function minhaFuncao() {
 
  const ola = ["refr", "suco" , "cha"];
 
- //alert(Array.isArray(ola));
-
-
-
-const superLista = lista.concat(ola);
+ //alert(Array.isArray(ola));*/
+/** SUPER LISTA 
+ * const superLista = lista.concat(ola);
 
 document.getElementById("teste").innerHTML = lista;
 
 
 const jogadores = ["biro", "Ribamar" , "pelé"];
+
 
 jogadores.sort();
 jogadores.reverse();
@@ -89,8 +82,8 @@ if (interruptor == "on") {
     alert('desligada');
 }
 
-    
-
+*/
+/** VERIFICA COR 
 function verificaCor() {
     let cor = document.getElementById("cor").value;
     cor = cor.toLowerCase();
@@ -115,14 +108,17 @@ case "vermelho":
 document.getElementById("teste").innerHTML = "nenhumacor" + cor;
 }
 
-
-var ano = new Date().getFullYear();
+*/
+/** CONTADOR ANO
+ * 
+ * 
+ * var ano = new Date().getFullYear();
 for (let i = ano; i > 1900; i--) {
     document.getElementById("ano").innerHTML += "<option value='" + i + "'>" + i + "</option>"
 }
 
 
-
+// 
 const carros = ["gol", "fusca", "brasilia", "Del Rey"]
 var tamanho = carros.length;
 
@@ -137,10 +133,9 @@ for(let i=0; i<tamanho; i++) {
       
       },  100);  
 }
-}
 
-
-
+ */
+ //Contador DE TEMPO 
 function ativarContagem() {
 tempo = setInterval(function() {
     var cronometro = document.getElementById('tempo').innerHTML;
@@ -153,9 +148,8 @@ function Stop() {
     clearInterval(tempo);
 }
 
-
-
-class Carro{
+/** CONSTRUTOR CLASSES
+ * class Carro{
     constructor(uno, bele, ana, oculu) {
         this.marca = uno;
     }
@@ -168,23 +162,12 @@ const uno = new Carro("Fiat", "uno", 2001);
 const motoclube = new Carro("Kansas", "uno", 2015);
 
 const impetus = new Carro("Dafra", "uno", 2001);
+ 
+
+class clube {
+    constructor(nome, cargo, clube, etc) {
+        this.nome = 
+    }
+}
+
  */
-
-
-
-
-//let data = new Date() 
-//console.log(data);
-
-
-
-//let ano = data.getFullYear();
-//console.log(ano);
-
-
-//let mes = data.getMonth();
-
-
-
-let hora = data.getHours();
-console.log(hora);
