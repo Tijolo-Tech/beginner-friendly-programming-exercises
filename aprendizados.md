@@ -156,3 +156,8 @@ console.log(animals[2])
 JS é uma linguagem baseada em prototipos, posso manipular os dados pois cada dados tem um objeto em protypo e acessar a propriedade.
 
 ## manipulando strings e números
+
+
+# Espaços em console \n
+
+uma nova linha na saída, utilizar "\n" 
