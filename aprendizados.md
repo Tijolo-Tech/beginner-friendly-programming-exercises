@@ -161,3 +161,11 @@ JS é uma linguagem baseada em prototipos, posso manipular os dados pois cada da
 # Espaços em console \n
 
 uma nova linha na saída, utilizar "\n" 
+
+
+# development
+
+1 Escrever o código corretamente
+2 encontrar ajuda para problemas
+3 Debug no código
+4 Trabalhar com produtividade(i.e IDE, editor: Auto formatação de código, extensões)
