@@ -169,3 +169,21 @@ uma nova linha na saída, utilizar "\n"
 2 encontrar ajuda para problemas
 3 Debug no código
 4 Trabalhar com produtividade(i.e IDE, editor: Auto formatação de código, extensões)
+
+ # Encontrar Ajuda
+ *usar MDN*
+ *Google*
+ *foruns e comunidades*
+ *stackoverlow*
+**ler as mensagens de erros**
+
+ as duvidas são para saber a lógica certa, não para sintaxe.
+
+ erro e ajuste é uma parte importante no desenovilmento.
+
+ todos podem ver meu código se abrir o desenvolvimento, terá o consolelog.
+
+Erros: lógicos e sintaxe
+
+
+
