@@ -9,5 +9,5 @@ Mentoria ->
 IDE
 PESQUISAR *DEPURAR CÒDIGO e de log e DEPURAÇÂO nos navegadores*
 Funcoes
-Commit
+Commit -(dificuldade para acessar a pasta correta, mas para subir já estou melhor. Como estava subindo na pasta errada, enviei para a newbranch a pasta vazia.)
 
