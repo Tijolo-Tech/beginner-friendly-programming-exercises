@@ -34,4 +34,8 @@ function Somar(parametro1, parametro2) {
       Somar(/*Argumento1 */, /** Argumento2 */) // exemplo 1 - passando argumentos de valores numericos
 
 
+pra chamar uma funcao, preciso criar uma variavel? GPT ANSWER
+Não, você não precisa criar uma variável para chamar uma função. Você pode chamar uma função diretamente, sem criar uma variável.
+
+
 
