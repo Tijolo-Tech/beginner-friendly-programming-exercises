@@ -10,7 +10,7 @@ function getUserNumberInput() {
 
 // Generates and writes calculation log
 function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
-  const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
+  const calcDescription = `${resultBeforeCalc} oiuuy ${operator} ${calcNumber}`;
   outputResult(currentResult, calcDescription); // from vendor file
 }
 
@@ -18,7 +18,7 @@ function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
 function add() {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
-  currentResult = currentResult + enteredNumber;
+  currentResult += enteredNumber;
   createAndWriteOutput('+', initialResult, enteredNumber);
 const logEntry = {
     operation: 'ADD',
@@ -66,6 +66,7 @@ function divide() {
   const enteredNumber = getUserNumberInput();
   const initialResult = currentResult;
   currentResult /= enteredNumber;
+
   createAndWriteOutput('/', initialResult, enteredNumber);
 }
 

@@ -185,5 +185,8 @@ uma nova linha na saída, utilizar "\n"
 
 Erros: lógicos e sintaxe
 
+# tudo está conectado
+é possível abrir Live server e modificar o código pelo inspector e modificará no vscode. Uma forma de testar e visualizar como ficaria o código visualmente.
+
 
 

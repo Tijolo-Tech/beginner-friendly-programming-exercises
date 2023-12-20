@@ -10,9 +10,32 @@ function getUserNumberInput() {
 
 // Generates and writes calculation log
 function createAndWriteOutput(operator, resultBeforeCalc, calcNumber) {
-  const calcDescription = `${resultBeforeCalc} ${operator} ${calcNumber}`;
+  const calcDescription = `${resultBeforeCalc}  (${operator}) ${calcNumber}`;
+  
   outputResult(currentResult, calcDescription); // from vendor file
 }
+
+
+/*function calculateResult(calculationType) {
+  if (
+    calculationType !== 'ADD' &&
+    calculationType !-- 'SUBTRACT' && 
+    calculationType !== 'MULTIPLY' &&
+    calculationType !== 'DIV'
+  ) {
+    return;
+  }
+}
+
+
+if (
+  calculationType === 'ADD' ||
+  calculationType === 'SUBTRACT' || 
+  calculationType === 'MULTIPLY' ||
+  calculationType === 'DIV'
+)
+
+*/
 
 
 
@@ -29,7 +52,7 @@ function calculateResult(calculationType) {
   } else if (calculationType === 'MULTIPLY') {
     currentResult *= enteredNumber;
     mathOperator = '*';
-  } else if (calculationType === 'DIVIDE') {
+  } else if (calculationType === 'DIV') {
     currentResult /= enteredNumber;
     mathOperator = '/';
   }
@@ -37,8 +60,6 @@ function calculateResult(calculationType) {
   createAndWriteOutput(mathOperator, initialResult, enteredNumber);
   writeToLog(calculationType, initialResult, enteredNumber, currentResult);
 }
-
-
 
 
 function add() {
@@ -56,8 +77,10 @@ function multiply() {
 }
 
 function divide() {
-  calculateResult('DIVIDE');
+  calculateResult('DIV');
 }
+
+
 
 addBtn.addEventListener('click', add);
 subtractBtn.addEventListener('click', subtract);

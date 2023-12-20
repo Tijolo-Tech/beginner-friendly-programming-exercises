@@ -236,3 +236,141 @@ function saldo(pix, cartoes, porquinho) {
 }
 saldo(10, 10, 55554); // chamei funcao, sem uma variavel
 
+
+// operator
+console.log((2+2)*20)
+
+
+//27
+function power(receberPoder1, receberPoder2) {
+  return 'poderes recebidos', receberPoder1;
+}
+
+let valorDosPoderes = power(11,55);
+console.log(power);
+
+//28
+function RetornoDaFuncao(parameter1, parameter2) {
+  return parameter1,'teste', parameter2;
+}
+
+
+const result = RetornoDaFuncao(1,2);
+console.log(RetornoDaFuncao);
+
+///29
+
+function Multiplicar(dezCasas, onzeCasas) {
+  return [dezCasas, onzeCasas];
+}
+
+let mt = Multiplicar(800, 850);
+console.log(mt);
+
+//30
+function Reprogramar(pratica, mindfullness) {
+}
+  //if mindfullness = pratica;
+  //else {
+   // Multiplicar = mindfullness;
+
+//32 
+
+function amar(guarda1, guarda2) {
+  return guarda2;
+}
+
+let imprimir = amar(200, 'nao é 200');
+console.log(imprimir)
+
+//33
+
+function myFunction() {
+  const data = 'Esta é uma mensagem';
+  fs.writeFile('arquivo.txt', data);
+}
+
+console.log(myFunction)
+
+//34
+
+function Compras(essenciais, normais, extras) {
+  return essenciais;
+}
+
+
+let appComprinhas = Compras('media, alta, alta, alta, média, baixa')
+console.log(appComprinhas);
+
+//35
+function AventuraDeMaio(teste) {
+  return length.AventuraDeMaio;
+
+
+
+}
+console.log(AventuraDeMaio)
+
+
+//36 
+function Biblia(capitulos) {
+
+}
+
+ //37
+
+ function Boolean(aqui, outro) {
+   if (Boolean >= 'AventuraDeMaio');
+ }
+
+
+var arg = Boolean(10,15);
+ console.log(arg)
+
+ // 38
+function False() {
+
+}
+
+ //39
+function True() {
+
+}
+
+
+ //40
+ function variavel() {
+
+ }
+
+ //41
+
+function parametros(){
+
+}
+
+
+//42
+function argumentos(){
+
+}
+
+
+//43
+function Return() {
+
+}
+
+
+//44
+function CallFunction() {
+
+}
+
+//45
+function NameFunction() {
+
+}
+
+
+
