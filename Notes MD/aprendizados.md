@@ -156,3 +156,37 @@ console.log(animals[2])
 JS é uma linguagem baseada em prototipos, posso manipular os dados pois cada dados tem um objeto em protypo e acessar a propriedade.
 
 ## manipulando strings e números
+
+
+# Espaços em console \n
+
+uma nova linha na saída, utilizar "\n" 
+
+
+# development
+
+1 Escrever o código corretamente
+2 encontrar ajuda para problemas
+3 Debug no código
+4 Trabalhar com produtividade(i.e IDE, editor: Auto formatação de código, extensões)
+
+ # Encontrar Ajuda
+ *usar MDN*
+ *Google*
+ *foruns e comunidades*
+ *stackoverlow*
+**ler as mensagens de erros**
+
+ as duvidas são para saber a lógica certa, não para sintaxe.
+
+ erro e ajuste é uma parte importante no desenovilmento.
+
+ todos podem ver meu código se abrir o desenvolvimento, terá o consolelog.
+
+Erros: lógicos e sintaxe
+
+# tudo está conectado
+é possível abrir Live server e modificar o código pelo inspector e modificará no vscode. Uma forma de testar e visualizar como ficaria o código visualmente.
+
+
+

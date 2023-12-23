@@ -148,6 +148,8 @@ function Stop() {
     clearInterval(tempo);
 }
 
+console.warn('tempo')
+
 /** CONSTRUTOR CLASSES
  * class Carro{
     constructor(uno, bele, ana, oculu) {
@@ -171,3 +173,5 @@ class clube {
 }
 
  */
+
+

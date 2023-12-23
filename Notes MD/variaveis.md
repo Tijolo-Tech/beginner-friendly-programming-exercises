@@ -45,3 +45,32 @@ console.log(Exemplo3);**conseguimos imprimir VAR até mesmo fora do bloco {}, o 
 O valor não muda, após declarar, não será possível reatribuir outro valor.
 
 ### conclusão
+
+
+
+## treino de código
+
+# treinamento de código
+let Amanha = ['oi']
+console.log(Amanha)
+
+
+let Domingo = ('Chato')
+console.log(typeof Domingo)
+
+
+let Segunda = ('oi')
+console.log(typeof Amanha)
+
+
+let Terça = "olaaaaaaaa"
+console.error(Terça)
+
+
+
+let Quarta = "olaaaaaaaa"
+console.info(Quarta)
+
+
+var Relogio = ["setehoras",  "trintaMinutos"]
+console.log(Relogio);
