@@ -1,0 +1,22 @@
+[
+  {
+    "name": "caderno",
+    "price": 9.99,
+    "id": "cba6e80b-941b-49be-864b-2b23633542fd"
+  },
+  {
+    "name": "caderninho urso",
+    "price": 9.99,
+    "id": "e2f5a551-997c-4b7f-9e17-c24c89342bab"
+  },
+  {
+    "name": "caderninho urso",
+    "price": 9.99,
+    "id": "c8e1a393-fe39-464d-ab69-cca853798489"
+  },
+  {
+    "name": "lapis urso",
+    "price": 9.99,
+    "id": "14317f3d-76fc-4f8a-8db3-4186f72eed71"
+  }
+]

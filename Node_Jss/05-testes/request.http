@@ -1,0 +1,28 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+//formato JSON
+{
+   "name": "apontador",
+   "price": 9.99
+}
+
+### 
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/4dbc6df2-0c5e-4230-8ab1-fcda8fe1fbb8
+
+### 
+PUT http://localhost:4002/products/4dbc6df2-0c5e-4230-8ab1-fcda8fe1fbb8
+content-type: application/json
+ 
+{
+   "name": "Camisa preta",
+   "price": 98.00
+} 
+
+
+###
+DELETE http://localhost:4002/products/3a20cf9c-c765-4a60-978e-bb4113778c66

@@ -1,0 +1,87 @@
+head {
+    align-items: center;
+}
+
+body {
+    background-color: black; /* Cor de fundo mais escura para um estilo futurista */    background-size: cover;
+    position: relative;
+    color: #ffffff; /* Texto em branco para contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+    
+}
+
+h1, h2, section {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* Sombra de texto com cor branca */
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 2em; /* Tamanho de fonte maior para o título principal */
+}
+
+section {
+    margin: 20px 0; /* Espaçamento entre as seções */
+}
+
+div.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    color: #ffffff;
+    font-size: larger;
+    border-radius: 40px;
+    background-color: yellowgreen; /* Cor de fundo preta para o botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    margin-top: 20px; /* Espaçamento superior do botão */
+}
+
+
+
+section {
+        display: flex;
+        border-radius: 20px;
+        background-image: url(img/img3.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover; /* Alterado para 'cover' para preencher a seção */
+        align-items: center;
+        text-align: right;
+        color: white; /* Cor do texto para contraste */
+    }
+    
+    .section-content {
+        flex: 1;
+        padding: 20px; /* Espaçamento interno */
+    }
+    
+    .section-text {
+        max-width: 50%; /* Ajuste conforme necessário */
+    }
+    
+}
+
+
+header {
+    background-image: url('caminho/da/sua/imagem.jpg');
+    background-size: 100% 100%; /* Esta configuração estica a imagem para cobrir todo o cabeçalho */
+    height: 300px; /* Altura desejada do cabeçalho */
+    color: white; /* Cor do texto para contraste */
+    text-align: center; /* Alinhar o texto no centro */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+}
+
+section.fundo {
+    background-color: yellow;
+}
