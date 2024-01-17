@@ -1,0 +1,20 @@
+{
+  "name": "nome-do-projeto",
+  "version": "1.0.0",
+  "description": "Descrição do projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "keywords": [
+    "testes",
+    "mocha"
+  ],
+  "dependencies": {
+    "commander": "^11.1.0",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
